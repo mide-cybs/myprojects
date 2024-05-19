@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+.container1{
+    background-color: #F2E6D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: #ffffff;
+    width: 650px;
+    padding: 32px 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 100px, auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    color: #312E2D;
+}
+
+.image{
+    width: 100%;
+    box-shadow: #F2E6D9;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container2{
+    margin-bottom: 20px;
+}
+
+.header1{
+    font-family: Young serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.paragraph1{
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.prepare{
+   background-color: #FFEBF6;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   border-radius: 5px;
+   font-family: Outfit;
+   
+
+}
+
+.unordered1{
+    font-weight: 300;
+    color: #312E2D;
+}
+
+.time{
+    font-family: Outfit;
+    font-size: 20px;
+    color: #693C50;
+    font-weight: 500;
+}
+
+.total{
+    font-weight: 600;
+    color: #312E2D;
+    font-family: Outfit;
+}
+
+.ingredient{
+    margin-top: 20px;
+    row-gap: 16px;
+    font-family: Oufit;
+}
+
+.header2{
+    font-family: Young serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #704E41;
+}
+
+.preparation{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.cooking{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.header3{
+   
+    column-gap: 16px;
+    font-family: Outfit;
+}
+
+.instruction{
+    font-family: Young serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #704E41;
+    
+}
+.unordered2{
+    font-family: Outfit;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.ol1{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: Outfit;
+}
+
+.ol2{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.ol3{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.ol4{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.ol5{
+    margin-bottom: 16px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.ol6{
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.beat{
+    font-weight: 600;
+    color: #312E2D; 
+}
+
+.heat{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.cook{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.add{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.fold{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.enjoy{
+    font-weight: 600;
+    color: #312E2D;
+}
+
+.nutrition{
+    font-family: Young serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #704E41;
+}
+
+.header5{
+    font-family: Outfit;
+}
+.para2{
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+.tablecontainer{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table{
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+  
+}
+.calory, .data1{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.calory{
+    font-family: Outfit;
+    font-weight: 200;
+    color: #312E2D;
+}
+.data1{
+    font-family: Outfit;
+    font-weight: 500;
+    color: #704E41;
+}
+
+.carbs, .data2{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.carbs{
+    font-family: Outfit;
+    font-weight: 200;
+    color: #312E2D;
+}
+.data2{
+    font-family: Outfit;
+    font-weight: 500;
+    color: #704E41;
+}
+
+.protein, .data3{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.protein{
+    font-family: Outfit;
+    font-weight: 200;
+    color: #312E2D;
+}
+.data3{
+    font-family: Outfit;
+    font-weight: 500;
+    color: #704E41;
+}
+.fat{
+    font-family: Outfit;
+    font-weight: 200;
+    color: #312E2D;
+}
+
+.data4{
+    font-family: Outfit;
+    font-weight: 500;
+    color: #704E41;
+}
+
+.fat, .data4{
+    padding: 10px;
+    text-align: left;
+}
